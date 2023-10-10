@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <div className="h-full py-24" id='about'>
             <div className="text-center">
-                <h1 className="text-5xl font-bold" >About us</h1>
+                <h1 className="text-3xl lg:text-5xl font-bold" >About us</h1>
             </div>
             <div className=' w-full flex flex-col justify-center items-center mt-4 mx-0 lg:flex-row'>
                 <div>
