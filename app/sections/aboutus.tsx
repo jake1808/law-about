@@ -29,7 +29,7 @@ const AboutUs = () => {
                     </div>
 
                 </div>
-                <div className='w-[40%] text-left pt-20 pl-20'>
+                <div className='lg:w-[50%] text-left pt-20 lg:pl-20 px-10'>
                     <p>
                         LHA is not just an ordinary consultancy service; it&apos;s a game-changer for anyone looking to
                         navigate the complex landscapes of law and business in African countries. Our platform
