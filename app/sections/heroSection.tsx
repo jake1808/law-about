@@ -7,7 +7,7 @@ const HeroSection = () => {
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold">Law help Africa</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <p className="mb-5">Law and buisness made easy.</p>
                     <div data-aos="zoom-in" >
                         <Link href='#contactUs' className="btn btn-primary">Contact Us</Link>
                     </div>
