@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
 
   return (
-    <html lang="en" className='scroll-smooth'>
+    <html lang="en" className='scroll-smooth overflow-x-hidden'>
 
       <body className={roboto.className}>
         <NavBar />
