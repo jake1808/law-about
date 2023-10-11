@@ -9,7 +9,6 @@ const ContactUs = () => {
     //     user:
     // })
 
-
     const formik = useFormik({
         initialValues: {
             email: '',
@@ -19,14 +18,14 @@ const ContactUs = () => {
         onSubmit: values => {
             console.log(values.email);
             console.log(values.name);
-            console.log(values.name);
+            console.log(values.message);
         }
     });
 
     return (
         <div className='min-h-screen' id='contactUs'>
-            <h1 className='text-center font-bold text-5xl'>Contact us</h1>
-            <form onSubmit={formik.handleSubmit} className='flex flex-col px-40'>
+            <h1 className='text-center font-bold text-3xl lg:text-5xl'>Contact us</h1>
+            <form onSubmit={formik.handleSubmit} className='flex flex-col px-10 lg:px-40'>
                 <label htmlFor="email">Email:</label>
                 <input
                     type="email"

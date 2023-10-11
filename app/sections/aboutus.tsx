@@ -7,9 +7,9 @@ const AboutUs = () => {
     return (
         <div className="h-full py-24" id='about'>
             <div className="text-center">
-                <h1 className="text-5xl font-bold" >About us</h1>
+                <h1 className="text-3xl lg:text-5xl font-bold" >About us</h1>
             </div>
-            <div className=' w-full flex flex-col justify-center items-center mt-4 mx-0'>
+            <div className=' w-full flex flex-col justify-center items-center mt-4 mx-0 lg:flex-row'>
                 <div>
                     <img
                         src='/about.jpeg'
@@ -29,7 +29,7 @@ const AboutUs = () => {
                     </div>
 
                 </div>
-                <div className='w-[40%] text-left pt-20'>
+                <div className='lg:w-[50%] text-left pt-20 lg:pl-20 px-10'>
                     <p>
                         LHA is not just an ordinary consultancy service; it&apos;s a game-changer for anyone looking to
                         navigate the complex landscapes of law and business in African countries. Our platform
