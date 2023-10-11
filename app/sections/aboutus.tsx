@@ -1,4 +1,4 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
 import ImageCard from '../components/imageCard'
 
 
@@ -42,6 +42,7 @@ const AboutUs = () => {
                         <li>Legal Representation</li>
                         <li>Legal Consulting Services</li>
                         <li>Taxation and Accounting Services</li>
+                        <li>Business management consulting</li>
                     </ol>
                     <p className='mt-4'>
                         We emphasize dual focus on cutting-edge technology and a personalized experience. Our AI-powered platform streamlines processes, making them faster and more efficient than ever before.
